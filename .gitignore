@@ -2,10 +2,10 @@
 sourcekitten-output.json
 docs/
 /.build
-/Packages
+#/Packages
 #/*.xcodeproj
-**/xcuserdata
-**/xcshareddata
+#**/xcuserdata
+#**/xcshareddata
 Pods/
 Carthage/
 Examples/**/Podfile.lock
