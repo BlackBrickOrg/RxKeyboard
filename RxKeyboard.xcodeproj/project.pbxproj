@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD654B689384CC6FF3932494 /* RxKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6544BBEA12C3F4830D9DDB /* RxKeyboard.h */; };
 		FB41B97C225A16940049F3BC /* RxKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41B97B225A16940049F3BC /* RxKeyboard.swift */; };
+		FB41B982225A1CA50049F3BC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB41B97E225A1CA40049F3BC /* RxSwift.framework */; };
+		FB41B983225A1CA50049F3BC /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB41B97F225A1CA40049F3BC /* RxBlocking.framework */; };
+		FB41B984225A1CA50049F3BC /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB41B980225A1CA40049F3BC /* RxCocoa.framework */; };
+		FB41B985225A1CA50049F3BC /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB41B981225A1CA40049F3BC /* RxAtomic.framework */; };
+		FB41B986225A1D370049F3BC /* RxKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6544BBEA12C3F4830D9DDB /* RxKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD6544ABD883C8398C16B488 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		DD6544BBEA12C3F4830D9DDB /* RxKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxKeyboard.h; sourceTree = "<group>"; };
+		DD65499A5FF4BF1E83D61A59 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		DD654E3813A28E4F18FC9B90 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = file.resolved; path = Cartfile.resolved; sourceTree = "<group>"; };
 		FB41B96E225A16550049F3BC /* RxKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB41B97B225A16940049F3BC /* RxKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxKeyboard.swift; sourceTree = "<group>"; };
+		FB41B97E225A1CA40049F3BC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		FB41B97F225A1CA40049F3BC /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		FB41B980225A1CA40049F3BC /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		FB41B981225A1CA40049F3BC /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +33,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB41B982225A1CA50049F3BC /* RxSwift.framework in Frameworks */,
+				FB41B983225A1CA50049F3BC /* RxBlocking.framework in Frameworks */,
+				FB41B984225A1CA50049F3BC /* RxCocoa.framework in Frameworks */,
+				FB41B985225A1CA50049F3BC /* RxAtomic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +50,9 @@
 				FB41B96F225A16550049F3BC /* Products */,
 				DD6544ABD883C8398C16B488 /* Info.plist */,
 				DD6544BBEA12C3F4830D9DDB /* RxKeyboard.h */,
+				DD65499A5FF4BF1E83D61A59 /* Cartfile */,
+				DD654E3813A28E4F18FC9B90 /* Cartfile.resolved */,
+				FB41B97D225A1CA40049F3BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +80,17 @@
 			path = RxKeyboard;
 			sourceTree = "<group>";
 		};
+		FB41B97D225A1CA40049F3BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB41B981225A1CA40049F3BC /* RxAtomic.framework */,
+				FB41B97F225A1CA40049F3BC /* RxBlocking.framework */,
+				FB41B980225A1CA40049F3BC /* RxCocoa.framework */,
+				FB41B97E225A1CA40049F3BC /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -70,7 +98,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD654B689384CC6FF3932494 /* RxKeyboard.h in Headers */,
+				FB41B986225A1D370049F3BC /* RxKeyboard.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +308,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RxKeyboard/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +337,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RxKeyboard/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
