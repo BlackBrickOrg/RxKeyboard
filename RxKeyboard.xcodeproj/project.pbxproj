@@ -130,7 +130,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = RxKeyboard;
+				ORGANIZATIONNAME = RxSwift;
 				TargetAttributes = {
 					FB41B96D225A16550049F3BC = {
 						CreatedOnToolsVersion = 10.2;
@@ -319,7 +319,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rxcommunity.rxkeyboard.RxKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxswift.rxkeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -348,7 +348,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rxcommunity.rxkeyboard.RxKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxswift.rxkeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
