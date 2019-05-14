@@ -9,6 +9,7 @@
 #if os(iOS)
 import UIKit
 
+import RxRelay
 import RxCocoa
 import RxSwift
 

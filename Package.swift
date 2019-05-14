@@ -8,9 +8,9 @@ let package = Package(
     .library(name: "RxKeyboard", targets: ["RxKeyboard"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "4.4.0")),
+    .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.1")),
   ],
   targets: [
-    .target(name: "RxKeyboard", dependencies: ["RxSwift", "RxCocoa"]),
+    .target(name: "RxKeyboard", dependencies: ["RxSwift", "RxCocoa", "RxRelay", "RxBlocking"]),
   ]
 )
